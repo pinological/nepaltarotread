@@ -8,22 +8,6 @@ body{
     color: white;
     
 }
-@media screen and (max-width:831px){
-    .name1{
-        padding-left: 60px;
-    }
-    .nav{
-        padding: 35px 0px;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-    .welcome{
-        margin:20px;
-    }
-
-}
-
 .title{
     font-size: 30px;
     text-align: center;
@@ -50,7 +34,7 @@ body{
 .nav{
     float: right;
     margin-bottom: auto;
-    font-size: 25px;
+    font-size: 20px;
 }
 .navin{
     color: white;
@@ -153,4 +137,40 @@ body{
     color: white;
     font-weight: bold;
     padding: 30px;
+}
+@media screen and (max-width:831px){
+    .name1{
+        padding-left: 20px;
+    }
+    .nav{
+        padding: 35px 0px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .welcome{
+        margin:20px;
+    }
+    .navin{
+        color: white;
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+    .navinin{
+        color: black;
+        text-decoration: none;
+        padding: 10px 10px;
+        background-color: white;
+        font-weight: bold;
+    
+    }
+    .navin:hover{
+        color: black;
+        text-decoration: none;
+        padding: 10px 10px;
+        background-color: white;
+        font-weight: bold;
+    }
+
 }
